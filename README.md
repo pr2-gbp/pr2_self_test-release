@@ -1,3 +1,32 @@
+## pr2_self_test (kinetic) - 1.0.13-0
+
+The packages in the `pr2_self_test` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --ros-distro kinetic pr2_self_test --edit` on `Tue, 26 Mar 2019 08:26:58 -0000`
+
+These packages were released:
+- `joint_qualification_controllers`
+- `pr2_bringup_tests`
+- `pr2_counterbalance_check`
+- `pr2_motor_diagnostic_tool`
+- `pr2_self_test`
+- `pr2_self_test_msgs`
+
+Version of package(s) in repository `pr2_self_test`:
+
+- upstream repository: https://github.com/PR2/pr2_self_test.git
+- release repository: https://github.com/pr2-gbp/pr2_self_test-release.git
+- rosdistro version: `1.0.12-1`
+- old version: `1.0.12-1`
+- new version: `1.0.13-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## pr2_self_test (kinetic) - 1.0.12-1
 
 The packages in the `pr2_self_test` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --ros-distro kinetic pr2_self_test --edit` on `Sat, 09 Mar 2019 00:59:55 -0000`
