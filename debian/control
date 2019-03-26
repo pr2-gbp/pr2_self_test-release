@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-counterbalance-check
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-catkin, ros-kinetic-joint-qualification-controllers, ros-kinetic-pr2-controller-configuration, ros-kinetic-pr2-controller-manager, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-self-test-msgs, ros-kinetic-rospy, ros-kinetic-std-msgs
+Homepage: http://ros.org/wiki/pr2_counterbalance_check
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-counterbalance-check
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-actionlib, ros-kinetic-joint-qualification-controllers, ros-kinetic-pr2-controller-configuration, ros-kinetic-pr2-controller-manager, ros-kinetic-pr2-controllers-msgs, ros-kinetic-pr2-self-test-msgs, ros-kinetic-rospy, ros-kinetic-std-msgs
+Description: pr2_counterbalance_check
