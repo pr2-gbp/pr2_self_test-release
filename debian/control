@@ -1,0 +1,12 @@
+Source: ros-kinetic-pr2-self-test
+Section: misc
+Priority: extra
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-pr2-self-test
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-joint-qualification-controllers, ros-kinetic-pr2-bringup-tests, ros-kinetic-pr2-counterbalance-check, ros-kinetic-pr2-self-test-msgs
+Description: The pr2_self_test package
