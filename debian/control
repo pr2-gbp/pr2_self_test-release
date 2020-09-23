@@ -1,0 +1,13 @@
+Source: ros-melodic-joint-qualification-controllers
+Section: misc
+Priority: optional
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-control-toolbox, ros-melodic-message-generation, ros-melodic-pluginlib, ros-melodic-pr2-controller-interface, ros-melodic-pr2-hardware-interface, ros-melodic-pr2-mechanism-model, ros-melodic-realtime-tools, ros-melodic-robot-mechanism-controllers, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-urdf
+Homepage: http://www.ros.org/wiki/joint_qualification_controllers
+Standards-Version: 3.9.2
+
+Package: ros-melodic-joint-qualification-controllers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-control-toolbox, ros-melodic-message-runtime, ros-melodic-pluginlib, ros-melodic-pr2-controller-interface, ros-melodic-pr2-hardware-interface, ros-melodic-pr2-mechanism-model, ros-melodic-realtime-tools, ros-melodic-robot-mechanism-controllers, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-urdf
+Description: Controllers used in PR2 hardware testing.
+ For testing counterbalance of PR2, and for internal WG use.
