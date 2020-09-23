@@ -1,0 +1,13 @@
+Source: ros-melodic-pr2-bringup-tests
+Section: misc
+Priority: optional
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-camera-calibration, ros-melodic-catkin, ros-melodic-ethercat-trigger-controllers, ros-melodic-image-view, ros-melodic-pr2-bringup, ros-melodic-pr2-controller-manager, ros-melodic-pr2-mannequin-mode
+Homepage: http://ros.org/wiki/pr2_bringup_tests
+Standards-Version: 3.9.2
+
+Package: ros-melodic-pr2-bringup-tests
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-camera-calibration, ros-melodic-ethercat-trigger-controllers, ros-melodic-image-view, ros-melodic-pr2-bringup, ros-melodic-pr2-controller-manager, ros-melodic-pr2-mannequin-mode
+Description: Complete functionality tests for PR2.
+ Contains utilities designed to test and verify devices, mechanicals and sensors.
