@@ -1,0 +1,112 @@
+ros-melodic-pr2-counterbalance-check (1.0.15-1stretch) stretch; urgency=high
+
+  * Merge pull request #8 <https://github.com/PR2/pr2_self_test/issues/8> from knorth55/indigo-fix
+    Fixed bugs to run PR2 couter balance adjustment on Indigo
+  * Merge pull request #1 <https://github.com/PR2/pr2_self_test/issues/1> from k-okada/indigo-fix
+    remove duplicated -catkin_python_setup
+  * to import functions, need to import pr2_counterbalance_check.counterbalance_analysis
+  * remove ROSPACK_MAKEDIST and wrong catkin_python_setup placement
+  * add install to CMakeLists.txt in pr2_counterbalance_check
+  * add python setup in pr2_counterbalance_check
+  * Contributors: Kei Okada, Shingo Kitagawa
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 24 Apr 2019 07:00:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.14-1stretch) stretch; urgency=high
+
+  * added some additional python build support
+  * temporarily removed nosetest due to build interference
+  * nosetest is now in conditional block (pr2_counterbalance_check)
+  * Contributors: David Feil-Seifer
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 27 Mar 2019 07:00:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.13-1stretch) stretch; urgency=high
+
+  * updated maintainer status
+  * Contributors: David Feil-Seifer
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 26 Mar 2019 07:00:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.12-1stretch) stretch; urgency=high
+
+  * Merge branch 'hydro-devel' of https://github.com/pr2/pr2_self_test into hydro-devel
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 23 Sep 2015 06:58:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.11-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 22 Sep 2015 19:23:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.10-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Fri, 18 Sep 2015 07:00:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.9-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 11 Feb 2015 08:00:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.8-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 10 Feb 2015 08:00:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.7-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 02 Dec 2014 08:00:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.6-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Sat, 29 Nov 2014 03:38:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.5-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Fri, 28 Nov 2014 10:19:40 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.4-1stretch) stretch; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Fri, 28 Nov 2014 10:19:12 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.3-1stretch) stretch; urgency=high
+
+  * Removed mainpage.dox;updated maintainership
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 15 Oct 2014 07:00:00 -0000
+
+ros-melodic-pr2-counterbalance-check (1.0.2-1stretch) stretch; urgency=high
+
+  * Versions updated
+  * Changelogs
+  * Catkinization of pr2_counterbalance_check and compiles in hydro
+  * Added CMakeLists.txt
+  * Added package.xml
+  * Fix image type for Groovy.
+  * Fix counterbalance test.
+  * add dependency on matplotlib
+  * Unit tests for CB analysis code.
+  * Controllers load using pkg/Name syntax in pr2_counterbalance_check. #4534 <https://github.com/PR2/pr2_self_test/issues/4534>
+  * pr2_counterbalance_check tested on PRK
+  * counterbalance_training.py allows users to record training data for their CB
+  * Added pr2_counterbalance_check package, to allow CB check to run on robots and during qual. #4399 <https://github.com/PR2/pr2_self_test/issues/4399>
+  * Contributors: Austin Hendrix, TheDash, ahendrix, watts, wim
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 16 Sep 2014 07:00:00 -0000
+
+
