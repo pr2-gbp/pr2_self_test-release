@@ -1,0 +1,96 @@
+ros-noetic-pr2-motor-diagnostic-tool (1.0.15-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 24 Apr 2019 07:00:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.14-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 27 Mar 2019 07:00:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.13-1focal) focal; urgency=high
+
+  * updated maintainer status
+  * removed unnecessary dependency on actionlib for pr2_motor_diagnostic_tool package
+  * Merge pull request #5 <https://github.com/PR2/pr2_self_test/issues/5> from UNR-RoboticsResearchLab/indigo-devel
+    added additional package dependencies in order to compile on indigo
+  * added additional package dependencies in order to compile on indigo
+  * Contributors: Dave Feil-Seifer, David Feil-Seifer
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 26 Mar 2019 07:00:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.12-1focal) focal; urgency=high
+
+  * Merge branch 'hydro-devel' of https://github.com/pr2/pr2_self_test into hydro-devel
+  * removed genmsg dep
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 23 Sep 2015 06:58:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.11-1focal) focal; urgency=high
+
+  * Added actionlib dependency
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 22 Sep 2015 19:23:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.10-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Fri, 18 Sep 2015 07:00:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.9-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 11 Feb 2015 08:00:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.8-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 10 Feb 2015 08:00:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.7-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 02 Dec 2014 08:00:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.6-1focal) focal; urgency=high
+
+  * Updated versions
+  * Changelogs
+  * Added pr2_motor_diagnostic_tool
+  * Contributors: TheDash
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Sat, 29 Nov 2014 03:38:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.5-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Fri, 28 Nov 2014 10:19:40 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.4-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Fri, 28 Nov 2014 10:19:12 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.3-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Wed, 15 Oct 2014 07:00:00 -0000
+
+ros-noetic-pr2-motor-diagnostic-tool (1.0.2-1focal) focal; urgency=high
+
+
+
+ -- David Feil-Seifer <dave@cse.unr.edu>  Tue, 16 Sep 2014 07:00:00 -0000
+
+
