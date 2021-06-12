@@ -1,3 +1,32 @@
+## pr2_self_test (noetic) - 1.0.15-1
+
+The packages in the `pr2_self_test` repository were released into the `noetic` distro by running `/usr/bin/bloom-release pr2_self_test --ros-distro noetic --track noetic` on `Sat, 12 Jun 2021 08:07:23 -0000`
+
+These packages were released:
+- `joint_qualification_controllers`
+- `pr2_bringup_tests`
+- `pr2_counterbalance_check`
+- `pr2_motor_diagnostic_tool`
+- `pr2_self_test`
+- `pr2_self_test_msgs`
+
+Version of package(s) in repository `pr2_self_test`:
+
+- upstream repository: https://github.com/PR2/pr2_self_test.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `1.0.15-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## pr2_self_test (melodic) - 1.0.15-1
 
 The packages in the `pr2_self_test` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic pr2_self_test` on `Wed, 23 Sep 2020 20:41:31 -0000`
