@@ -1,0 +1,12 @@
+Source: ros-noetic-pr2-counterbalance-check
+Section: misc
+Priority: optional
+Maintainer: David Feil-Seifer <dave@cse.unr.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-actionlib, ros-noetic-catkin, ros-noetic-joint-qualification-controllers, ros-noetic-pr2-controller-configuration, ros-noetic-pr2-controller-manager, ros-noetic-pr2-controllers-msgs, ros-noetic-pr2-self-test-msgs, ros-noetic-rospy, ros-noetic-rostest, ros-noetic-rosunit, ros-noetic-std-msgs
+Homepage: http://ros.org/wiki/pr2_counterbalance_check
+Standards-Version: 3.9.2
+
+Package: ros-noetic-pr2-counterbalance-check
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-actionlib, ros-noetic-joint-qualification-controllers, ros-noetic-pr2-controller-configuration, ros-noetic-pr2-controller-manager, ros-noetic-pr2-controllers-msgs, ros-noetic-pr2-self-test-msgs, ros-noetic-rospy, ros-noetic-std-msgs
+Description: pr2_counterbalance_check
